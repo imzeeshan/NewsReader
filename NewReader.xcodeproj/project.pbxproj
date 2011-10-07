@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F10C8308143FA6F0005C9671 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10C8307143FA6F0005C9671 /* UIKit.framework */; };
+		F10C830A143FA6F0005C9671 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10C8309143FA6F0005C9671 /* Foundation.framework */; };
+		F10C830C143FA6F0005C9671 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10C830B143FA6F0005C9671 /* CoreGraphics.framework */; };
+		F10C8312143FA6F0005C9671 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F10C8310143FA6F0005C9671 /* InfoPlist.strings */; };
+		F10C8314143FA6F0005C9671 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F10C8313143FA6F0005C9671 /* main.m */; };
+		F10C8318143FA6F0005C9671 /* Hello_NewsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F10C8317143FA6F0005C9671 /* Hello_NewsAppDelegate.m */; };
+		F10C831B143FA6F0005C9671 /* NewReaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F10C831A143FA6F0005C9671 /* NewReaderAppDelegate.m */; };
+		F10C831E143FA6F0005C9671 /* NewReaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F10C831D143FA6F0005C9671 /* NewReaderViewController.m */; };
+		F10C8320143FA6F1005C9671 /* MainWindow-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10C831F143FA6F1005C9671 /* MainWindow-iPhone.xib */; };
+		F10C8322143FA6F1005C9671 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10C8321143FA6F1005C9671 /* MainWindow-iPad.xib */; };
+		F10C8324143FA6F1005C9671 /* NewReaderView-iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10C8323143FA6F1005C9671 /* NewReaderView-iPhone.xib */; };
+		F10C8326143FA6F1005C9671 /* NewReaderView-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = F10C8325143FA6F1005C9671 /* NewReaderView-iPad.xib */; };
+		F10C8328143FA6F1005C9671 /* Pugpig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F10C8327143FA6F1005C9671 /* Pugpig.framework */; };
+		F1E1F53E143FA945000C2F8B /* Data in Resources */ = {isa = PBXBuildFile; fileRef = F1E1F53D143FA945000C2F8B /* Data */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F10C8303143FA6F0005C9671 /* NewReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F10C8307143FA6F0005C9671 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F10C8309143FA6F0005C9671 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F10C830B143FA6F0005C9671 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F10C830F143FA6F0005C9671 /* NewReader-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NewReader-Info.plist"; sourceTree = "<group>"; };
+		F10C8311143FA6F0005C9671 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F10C8313143FA6F0005C9671 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F10C8315143FA6F0005C9671 /* NewReader-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NewReader-Prefix.pch"; sourceTree = "<group>"; };
+		F10C8316143FA6F0005C9671 /* Hello_NewsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello_NewsAppDelegate.h; sourceTree = "<group>"; };
+		F10C8317143FA6F0005C9671 /* Hello_NewsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hello_NewsAppDelegate.m; sourceTree = "<group>"; };
+		F10C8319143FA6F0005C9671 /* NewReaderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewReaderAppDelegate.h; sourceTree = "<group>"; };
+		F10C831A143FA6F0005C9671 /* NewReaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewReaderAppDelegate.m; sourceTree = "<group>"; };
+		F10C831C143FA6F0005C9671 /* NewReaderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewReaderViewController.h; sourceTree = "<group>"; };
+		F10C831D143FA6F0005C9671 /* NewReaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewReaderViewController.m; sourceTree = "<group>"; };
+		F10C831F143FA6F1005C9671 /* MainWindow-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPhone.xib"; sourceTree = "<group>"; };
+		F10C8321143FA6F1005C9671 /* MainWindow-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		F10C8323143FA6F1005C9671 /* NewReaderView-iPhone.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "NewReaderView-iPhone.xib"; sourceTree = "<group>"; };
+		F10C8325143FA6F1005C9671 /* NewReaderView-iPad.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "NewReaderView-iPad.xib"; sourceTree = "<group>"; };
+		F10C8327143FA6F1005C9671 /* Pugpig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pugpig.framework; path = ../Pugpig.framework; sourceTree = "<group>"; };
+		F1E1F53D143FA945000C2F8B /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F10C8300143FA6F0005C9671 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10C8308143FA6F0005C9671 /* UIKit.framework in Frameworks */,
+				F10C830A143FA6F0005C9671 /* Foundation.framework in Frameworks */,
+				F10C830C143FA6F0005C9671 /* CoreGraphics.framework in Frameworks */,
+				F10C8328143FA6F1005C9671 /* Pugpig.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F10C82F8143FA6F0005C9671 = {
+			isa = PBXGroup;
+			children = (
+				F1E1F53D143FA945000C2F8B /* Data */,
+				F10C830D143FA6F0005C9671 /* NewReader */,
+				F10C8306143FA6F0005C9671 /* Frameworks */,
+				F10C8304143FA6F0005C9671 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F10C8304143FA6F0005C9671 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F10C8303143FA6F0005C9671 /* NewReader.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F10C8306143FA6F0005C9671 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F10C8307143FA6F0005C9671 /* UIKit.framework */,
+				F10C8309143FA6F0005C9671 /* Foundation.framework */,
+				F10C830B143FA6F0005C9671 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F10C830D143FA6F0005C9671 /* NewReader */ = {
+			isa = PBXGroup;
+			children = (
+				F10C8316143FA6F0005C9671 /* Hello_NewsAppDelegate.h */,
+				F10C8317143FA6F0005C9671 /* Hello_NewsAppDelegate.m */,
+				F10C8319143FA6F0005C9671 /* NewReaderAppDelegate.h */,
+				F10C831A143FA6F0005C9671 /* NewReaderAppDelegate.m */,
+				F10C831C143FA6F0005C9671 /* NewReaderViewController.h */,
+				F10C831D143FA6F0005C9671 /* NewReaderViewController.m */,
+				F10C831F143FA6F1005C9671 /* MainWindow-iPhone.xib */,
+				F10C8321143FA6F1005C9671 /* MainWindow-iPad.xib */,
+				F10C8323143FA6F1005C9671 /* NewReaderView-iPhone.xib */,
+				F10C8325143FA6F1005C9671 /* NewReaderView-iPad.xib */,
+				F10C8327143FA6F1005C9671 /* Pugpig.framework */,
+				F10C830E143FA6F0005C9671 /* Supporting Files */,
+			);
+			path = NewReader;
+			sourceTree = "<group>";
+		};
+		F10C830E143FA6F0005C9671 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F10C830F143FA6F0005C9671 /* NewReader-Info.plist */,
+				F10C8310143FA6F0005C9671 /* InfoPlist.strings */,
+				F10C8313143FA6F0005C9671 /* main.m */,
+				F10C8315143FA6F0005C9671 /* NewReader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F10C8302143FA6F0005C9671 /* NewReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F10C832B143FA6F1005C9671 /* Build configuration list for PBXNativeTarget "NewReader" */;
+			buildPhases = (
+				F10C82FF143FA6F0005C9671 /* Sources */,
+				F10C8300143FA6F0005C9671 /* Frameworks */,
+				F10C8301143FA6F0005C9671 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewReader;
+			productName = NewReader;
+			productReference = F10C8303143FA6F0005C9671 /* NewReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F10C82FA143FA6F0005C9671 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = F10C82FD143FA6F0005C9671 /* Build configuration list for PBXProject "NewReader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F10C82F8143FA6F0005C9671;
+			productRefGroup = F10C8304143FA6F0005C9671 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F10C8302143FA6F0005C9671 /* NewReader */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F10C8301143FA6F0005C9671 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10C8312143FA6F0005C9671 /* InfoPlist.strings in Resources */,
+				F10C8320143FA6F1005C9671 /* MainWindow-iPhone.xib in Resources */,
+				F10C8322143FA6F1005C9671 /* MainWindow-iPad.xib in Resources */,
+				F10C8324143FA6F1005C9671 /* NewReaderView-iPhone.xib in Resources */,
+				F10C8326143FA6F1005C9671 /* NewReaderView-iPad.xib in Resources */,
+				F1E1F53E143FA945000C2F8B /* Data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F10C82FF143FA6F0005C9671 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F10C8314143FA6F0005C9671 /* main.m in Sources */,
+				F10C8318143FA6F0005C9671 /* Hello_NewsAppDelegate.m in Sources */,
+				F10C831B143FA6F0005C9671 /* NewReaderAppDelegate.m in Sources */,
+				F10C831E143FA6F0005C9671 /* NewReaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F10C8310143FA6F0005C9671 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F10C8311143FA6F0005C9671 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F10C8329143FA6F1005C9671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F10C832A143FA6F1005C9671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F10C832C143FA6F1005C9671 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewReader/NewReader-Prefix.pch";
+				INFOPLIST_FILE = "NewReader/NewReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F10C832D143FA6F1005C9671 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NewReader/NewReader-Prefix.pch";
+				INFOPLIST_FILE = "NewReader/NewReader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F10C82FD143FA6F0005C9671 /* Build configuration list for PBXProject "NewReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10C8329143FA6F1005C9671 /* Debug */,
+				F10C832A143FA6F1005C9671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F10C832B143FA6F1005C9671 /* Build configuration list for PBXNativeTarget "NewReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10C832C143FA6F1005C9671 /* Debug */,
+				F10C832D143FA6F1005C9671 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F10C82FA143FA6F0005C9671 /* Project object */;
+}
