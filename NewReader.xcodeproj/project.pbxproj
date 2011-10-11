@@ -212,7 +212,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zeeshan Chawdhary (DS2V6AC7XW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zeeshan Chawdhary (DS2V6AC7XW)";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -227,6 +228,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
+				PROVISIONING_PROFILE = "D557951C-C772-46C3-A5E4-759D92F77E2F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D557951C-C772-46C3-A5E4-759D92F77E2F";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -238,7 +241,8 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				CLANG_ENABLE_OBJC_ARC = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zeeshan Chawdhary (DS2V6AC7XW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zeeshan Chawdhary (DS2V6AC7XW)";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
@@ -247,6 +251,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.2;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "D557951C-C772-46C3-A5E4-759D92F77E2F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "EB549096-51F8-47B0-82F6-20684C70801C";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -256,6 +262,8 @@
 		F10C832C143FA6F1005C9671 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zeeshan Chawdhary (DS2V6AC7XW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zeeshan Chawdhary (DS2V6AC7XW)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -264,6 +272,8 @@
 				GCC_PREFIX_HEADER = "NewReader/NewReader-Prefix.pch";
 				INFOPLIST_FILE = "NewReader/NewReader-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D557951C-C772-46C3-A5E4-759D92F77E2F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D557951C-C772-46C3-A5E4-759D92F77E2F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -271,6 +281,8 @@
 		F10C832D143FA6F1005C9671 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Zeeshan Chawdhary (DS2V6AC7XW)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Zeeshan Chawdhary (DS2V6AC7XW)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -279,6 +291,8 @@
 				GCC_PREFIX_HEADER = "NewReader/NewReader-Prefix.pch";
 				INFOPLIST_FILE = "NewReader/NewReader-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "D557951C-C772-46C3-A5E4-759D92F77E2F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D557951C-C772-46C3-A5E4-759D92F77E2F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
